@@ -1,12 +1,9 @@
 # bav-haltestellen
 List from https://opentransportdata.swiss/de/dataset/didok as:
-Geojson::
-    With coordinates in WSG84 format and the `id` and `types` as properties.
-Json::
-    With `id`, `name`, `alias` and `types`.
-CSV::
-    With `id`, `name`, `name_long`, `community`, `state`, `country`, 
-    `country_code`,`lon` ,`lat`, `types`, and `types_list`.
+
+* **Geojson:** With coordinates in WSG84 format and the `id` and `types` as properties.
+* **Json:** With `id`, `name`, `alias` and `types`.
+* **CSV:** With `id`, `name`, `name_long`, `community`, `state`, `country`, `country_code`,`lon` ,`lat`, `types`, and `types_list`.
 
 All files are under `static`.
 
