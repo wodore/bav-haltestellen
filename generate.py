@@ -86,11 +86,12 @@ for i, row in df.iterrows():
             "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [row['lon'], row['lat']],
+                "coordinates": [round(row['lon'],5), round(row['lat'],5)],
             },
             "properties": {
                 "id": row["id"],
                 "types": row["types_list"],
+                "name": row["name"],
             },
         }
         features.append(Feature(**geojson_feature))
